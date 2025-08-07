@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#message-container {
+  border: 2px solid black;
+  margin: 3rem;
+  height: 55vh;
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  flex-direction: column;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+.input input {
+  width: 60vw;
+}
